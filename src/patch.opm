@@ -1,0 +1,4 @@
+-G "D:\Temp\kvSIM_Issue\src\"
+-err "patch.err"
+-r
+-f "patch.mak"

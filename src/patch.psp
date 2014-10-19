@@ -1,0 +1,15 @@
+;Codewright Project Space File (do not remove or modify this line)
+[State]
+StateWindowFrame=0,0,112,27,0x43097fca
+_StateHistory=PROJECTS,'.\patch.pjt'
+_RestoreProject='.\patch.pjt'
+ProjSpaceFlags=0x00000000, 1
+
+[Project]
+ConfigSetUserWorkspace=''
+ConfigSetUserWorkspaceParser=''
+ConfigSetUserWorkspaceTimeStamp=0
+ConfigSetUserWorkspaceAutoSync=0
+
+[Project.".\patch.pjt"]
+

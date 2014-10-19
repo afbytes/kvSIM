@@ -1,0 +1,180 @@
+;Codewright Project File (do not remove or modify this line)
+[ProjInit]
+ConfigSetExtMode=2
+ProjSetConfigFlags=0x04110940
+
+[State]
+SysSetCwd='D:\c166\examples\kvSIM'
+SrchSetFlags=0x0000600a
+SrchSetAgainFlags=0x00006002,0
+SrchSetAgainFlags=0x06100003,1
+FileSortMode=0x0
+_StateHistory=FILELIST,'D:\c166\examples\kvSIM\patch.mak','D:\c166\examples\kvSIM\cstart.asm','D:\c166\examples\kvSIM\SlckOsVar.h','D:\c166\examples\kvSIM\SlckOsFunc.h','D:\c166\examples\kvSIM\kvSIM_var.h','D:\c166\examples\kvSIM\a3a8.c','D:\c166\examples\kvSIM\a3a8.h','D:\c166\examples\kvSIM\menu.c','D:\c166\examples\kvSIM\sim_access.c'
+_StateHistory=SEARCH,'MY_SIM_TMSI_BEGIN','tmsi','nOpRecCnt','char','MY_LOG_STRU','LAST_BUF_POINTER','bit','SIM_Cmd_Hook','KVSIM_MenuEntrance','strlen'
+_StateHistory=EDITFILE,'D:\c166\examples\mypatch\java.c','D:\c166\examples\mypatch\test.c','D:\c166\examples\sim_dump\sim_access.c','D:\c166\examples\SIM_dump\test.c','D:\c166\examples\kvSIM\SlckOsFunc.h','D:\c166\examples\kvSIM\a3a8.h','D:\c166\examples\kvSIM\a3a8.c','D:\c166\examples\kvSIM\SlckOsVar.h','D:\c166\examples\kvSIM\menu.c','D:\c166\examples\kvSIM\SlckOsFunc.c'
+_StateHistory=DIRECTORY,'D:\c166\examples\mypatch'
+_StateHistory=DOCUMENTVISIT,'15          42          D:\c166\examples\kvSIM\SlckOsFunc.h','21          31          D:\c166\examples\kvSIM\SlckOsVar.h','59          1           D:\c166\examples\kvSIM\kvSIM_var.h','6           1           D:\c166\examples\kvSIM\sim_access.c','4           16          D:\c166\examples\kvSIM\a3a8.c','51          30          D:\c166\examples\kvSIM\cstart.asm','1           1           D:\c166\examples\kvSIM\a3a8.h','1           1           D:\c166\examples\kvSIM\sim_access.c','209         1           D:\c166\examples\kvSIM\menu.c','264         1           D:\c166\examples\kvSIM\sim_access.c'
+_StateDocumentVisit=10
+
+[Editor]
+_RestoreSysFlags=0x43097fca, 0xfffffffc, 0
+_RestoreSysFlags=0x00010001, 0xffffffff, 1
+CollapseMode=0x13080610
+FilterProjDeleteList 
+FilterProjAdd='Source Files','*.c;*.cc;*.cpp;*.cxx;*.ic;*.c96;*.fle;*.cmp;*.asm;*.src;*.s;*.a96;*.i;*.pcp',-1
+FilterProjAdd='Header Files','*.h;*.inc;*.sfr',-1
+FilterProjAdd='Project Files','*.pjt',-1
+FilterProjAdd='Resources','*.rc;*.bmp;*.ico;*.cur;*.dlg',-1
+FilterProjAdd='Other Files','*.*',-1
+VCSProject=''
+VCSProjectPath=''
+VCSProjectLocalPath=''
+ScrapSetCount=1
+ClipboardSetCount=1
+ClipboardEnableSepStr=1
+ClipboardSetSepStr='\r\n',0
+ClipboardEnableTermStr=1
+ClipboardSetTermStr='\r\n',0
+
+[Tools]
+ToolDeleteList 
+ToolAddCmd='$_custom_tool_$_1','API Database Editor',1342177312,'cwtedit.exe'
+
+[Compiler]
+TagSetCmd='"${HOME}${WTAGS}" -oc -d -t"${TAGFILE}.tag" -p"${TAGFILE}.ptg"',0x8000060
+BrowseSetFile='D:\c166\examples\sim_dump\patch.ptg'
+TagSetFile='D:\c166\examples\sim_dump\patch.tag'
+CompilerAddCmdEx='TASKING src','"d:\c166\bin\wmk.exe" -a -m "%x%y.opm" "%r.obj"',1073742432,'"d:\c166\bin\wmk.exe" -a -m "%x%y.opm" "%r.obj"',1073742432,'',1073742496,'',0,'',1073742496,'',0,'',1073741856,'',0,'_TaskingErrorInfo1','','','%x%y.err','%v%p'
+CompilerAddResponse='TASKING src',
+CompilerAddCmdEx='TASKING fle','"d:\c166\bin\wmk.exe" -a -m "%x%y.opm" "%r.obj"',1073742432,'"d:\c166\bin\wmk.exe" -a -m "%x%y.opm" "%r.obj"',1073742432,'',1073742496,'',0,'',1073742496,'',0,'',1073741856,'',0,'_TaskingErrorInfo1','','','%x%y.err','%v%p'
+CompilerAddResponse='TASKING fle',
+CompilerAddCmdEx='TASKING asm','"d:\c166\bin\wmk.exe" -a -m "%x%y.opm" "%r.obj"',1073742432,'"d:\c166\bin\wmk.exe" -a -m "%x%y.opm" "%r.obj"',1073742432,'',1073742496,'',0,'',1073742496,'',0,'',1073741856,'',0,'','','','%x%y.err','%v%p'
+CompilerAddResponse='TASKING asm',
+CompilerAddCmdEx='TASKING cxx','"d:\c166\bin\wmk.exe" -a -m "%x%y.opm" "%r.obj"',1073742432,'"d:\c166\bin\wmk.exe" -a -m "%x%y.opm" "%r.obj"',1073742432,'',1073742496,'',0,'',1073742496,'',0,'',1073741856,'',0,'_TaskingErrorInfo1','','','%x%y.err','%v%p'
+CompilerAddResponse='TASKING cxx',
+CompilerAddCmdEx='TASKING cc','"d:\c166\bin\wmk.exe" -a -m "%x%y.opm" "%r.obj"',1073742432,'"d:\c166\bin\wmk.exe" -a -m "%x%y.opm" "%r.obj"',1073742432,'',1073742496,'',0,'',1073742496,'',0,'',1073741856,'',0,'_TaskingErrorInfo1','','','%x%y.err','%v%p'
+CompilerAddResponse='TASKING cc',
+CompilerAddCmdEx='TASKING cmp','"d:\c166\bin\wmk.exe" -a -m "%x%y.opm" "%r.obj"',1073742432,'"d:\c166\bin\wmk.exe" -a -m "%x%y.opm" "%r.obj"',1073742432,'',1073742496,'',0,'',1073742496,'',0,'',1073741856,'',0,'_TaskingErrorInfo1','','','%x%y.err','%v%p'
+CompilerAddResponse='TASKING cmp',
+CompilerAddCmdEx='$_cw_proj_hash_$','"d:\c166\bin\wmk.exe" -a -m "%x%y.opm" "%r.obj"',1073742432,'"d:\c166\bin\wmk.exe" -a -m "%x%y.opm" "%r.obj"',1073742432,'!ExecuteBuild(\'"d:\c166\bin\wmk.exe" -m "%x%y.opm"\')',1073742496,'${FTEE} nmake',0,'!ExecuteBuild(\'"d:\c166\bin\wmk.exe" -a -m "%x%y.opm"\')',1073742496,'${FTEE} nmake',0,'d:\c166\bin\xfw166.exe d:\c166\examples\kvsim\patch.hex -f "%x_%y.xvo"',1073741856,'',0,'_TaskingErrorInfo1','','','%x%y.err','%v%p'
+CompilerAddResponse='$_cw_proj_hash_$',
+CompilerAddCmdEx='TASKING ic','"d:\c166\bin\wmk.exe" -a -m "%x%y.opm" "%r.obj"',1073742432,'"d:\c166\bin\wmk.exe" -a -m "%x%y.opm" "%r.obj"',1073742432,'',1073742496,'',0,'',1073742496,'',0,'',1073741856,'',0,'_TaskingErrorInfo1','','','%x%y.err','%v%p'
+CompilerAddResponse='TASKING ic',
+CompilerAddCmdEx='TASKING cpp','"d:\c166\bin\wmk.exe" -a -m "%x%y.opm" "%r.obj"',1073742432,'"d:\c166\bin\wmk.exe" -a -m "%x%y.opm" "%r.obj"',1073742432,'',1073742496,'',0,'',1073742496,'',0,'',1073741856,'',0,'_TaskingErrorInfo1','','','%x%y.err','%v%p'
+CompilerAddResponse='TASKING cpp',
+CompilerAddCmdEx='TASKING c','"d:\c166\bin\wmk.exe" -a -m "%x%y.opm" "%r.obj"',1073742432,'"d:\c166\bin\wmk.exe" -a -m "%x%y.opm" "%r.obj"',1073742432,'',1073742496,'',0,'',1073742496,'',0,'',1073741856,'',0,'_TaskingErrorInfo1','','','%x%y.err','%v%p'
+CompilerAddResponse='TASKING c',
+CompilerNewExt=.v
+CompilerNewExt=.src
+CompilerNewExt=.htm
+CompilerNewExt=.bas
+CompilerNewExt=.awk
+CompilerNewExt=.jsp
+CompilerNewExt=.cfml
+CompilerNewExt=.adb
+CompilerNewExt=.vhd
+CompilerNewExt=.pl
+CompilerNewExt=.pas
+CompilerNewExt=.tk
+CompilerNewExt=.rul
+CompilerNewExt=.asp
+CompilerNewExt=.js
+CompilerNewExt=.cob
+CompilerNewExt=.tcl
+CompilerNewExt=.rc
+CompilerNewExt=.php
+CompilerNewExt=.cc
+CompilerNewExt=.ini
+CompilerNewExt=.html
+CompilerNewExt=.bat
+CompilerNewExt=.cs
+CompilerNewExt=.txt
+CompilerNewExt=.nrx
+CompilerNewExt=.xml
+CompilerNewExt=.sqlj
+CompilerNewExt=.java
+
+[VersionControl:PVCS]
+VCSSetCmd=VCS_CHECKIN_ID,'put -n -T@"%Q" -M@"%Q" "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKINLOCK_ID,'put -n -T@"%Q" -M@"%Q" -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKOUT_ID,'get -y "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKOUTLOCK_ID,'get -y -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLOCK_ID,'vcs -y -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKUNLOCK_ID,'vcs -y -u "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLABEL_ID,'vcs -y -v"${VCSLABEL}" "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLOG_ID,'vlog "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKPROP_ID,'vlog -b "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKDIFF_ID,'vdiff -r "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKMENU_ID,'pvcsvmwn',0x8000000
+VCSSetCmd=VCS_ADD_ID,'vcs -i -t@"%Q" "%b%e"',0x8000040
+VCSSetCmd=VCS_REMOVE_ID,'del /f "%b%{??v|___}e"',0x8000040
+
+[Files]
+.\cstart.asm
+.\sim_access.c
+.\SlckOsFunc.h
+.\kvSIM_var.h
+.\a3a8.h
+.\a3a8.c
+.\SlckOsVar.h
+.\menu.c
+.\SlckOsFunc.c
+
+[Ede]
+Toolchain=d:\c166\etc\c166.dol
+ToolchainName=TASKING Tools for C166/ST10 v7.5 r2
+ProjectDir=d:\temp\kvsim_issue\src
+UserMode=Expert
+EdeVersion=2.7r5 (094)
+CodeWrightVersion=6.5
+DefBuildSettings=True
+SaveFiles=True
+ScanDependencies=False
+StopAfterError=True
+KeepTmpFiles=False
+ExtMakefile=False
+ExtMakefileName=
+UseMakeOptions=False
+MakeOptions=
+ShowOptions=False
+ExtDebugger=False
+ExtDebuggerName=
+UseDOSShell=False
+SaveOptionMethod=0
+SaveOptionFileName=
+LoadOptionFileName=
+LoadOptionStartup=False
+GroupMisraC=0
+GroupList=GroupMisraC
+
+[Directories]
+Executables=d:\c166\bin
+Includes=d:\c166\include
+Libraries=d:\c166\lib
+
+[DefaultOptions]
+CpuType=CpuC166Sv1
+CpuEva=0
+CMemModel=CModelLarge
+OutAbs=0
+OutIHex=1
+OutStartAddr=0BFCB00h
+LnkLocTrapFPLib=0
+LnkLocPrintfFmt=LnkLocSMALLPrintfFmt
+LocVecTab=0
+LocCpuMemSize=0
+LocMemSize=0C00000h
+LocMemRom=0BFCB00h-0BFFFFFh
+LocMemRam=90000h-91000h
+LocClasses=CMYINIT(0BFCB00h-0BFD000h)
+LocUserStackSize=
+OptionList=CpuType,CpuEva,CMemModel,OutAbs,OutIHex,OutStartAddr,LnkLocTrapFPLib,LnkLocPrintfFmt,LocVecTab,LocCpuMemSize,LocMemSize,LocMemRom,LocMemRam,LocClasses,LocUserStackSize
+
+[Options]
+FileList=
+
+[Project]
+ConfigSetLinkDBFilename='D:\c166\bin\cwright.ldb'
+ConfigSetMarkDBFilename='D:\c166\bin\CWRIGHT.MRK'
+ConfigSetSymbolDBFilename='D:\c166\examples\kvSIM\patch.sbl'
+EditSetPath=''
